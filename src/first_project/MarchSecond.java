@@ -4,6 +4,7 @@ import java.util.Scanner;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import test.Hello;
+import java.lang.Math;
 
 public class MarchSecond {
 
@@ -115,7 +116,7 @@ public class MarchSecond {
 //		}
 		
 		
-		//
+		//static
 		Number number1 =  new Number();
 		Number number2 = new Number();
 		
@@ -124,6 +125,8 @@ public class MarchSecond {
 		
 		System.out.println(number2.num1);
 		System.out.println(number2.num2);
+		
+		System.out.println(Math.abs(-10));//static 멤버이기 떄문에 객체를 만들지 않고 사용 가능 
 	}
 
 }
