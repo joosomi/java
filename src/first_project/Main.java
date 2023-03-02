@@ -112,7 +112,6 @@ public class Main {
 //		System.out.println(Arrays.toString(arr1));
  //   } 
 	
-	
 	public static void main(String[] args) {
 		//0 1 2
 		//3 4 5
@@ -175,7 +174,14 @@ public class Main {
 //		System.out.println("index of 2 : "+arr1.indexOf(2));
 		
 		
+		////객체 만들기
+		Person person1 = new Person();
+//		Person person2 = new Person("브래드", 20);
+//		person1.myname();
+//		person2.myname();
 		
+		person1.setName("루크");
+		System.out.println(person1.getName());
 		
 	}}
 
